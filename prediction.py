@@ -65,7 +65,7 @@ def app():
         col2.image(image, width=300, caption="Uploaded Image")
         col1.header("Diagnosis: ")
         result = predict(image)
-        col1.write("The X-ray is classified as: **" + result['class'] + "**")
+        col1.write("**{}**".format(result['class']), unsafe_allow_html=True)
         col1.write("Confidence: **{:.2f}%**".format(result['confidence']))
 
 # Run the Streamlit app
