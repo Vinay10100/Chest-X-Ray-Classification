@@ -5,7 +5,7 @@ import tensorflow as tf
 from PIL import Image
 
 # Loading the tflite model
-model_path = "model/main.tflite"
+model_path = "model_training/main.tflite"
 interpreter = tf.lite.Interpreter(model_path=model_path)
 interpreter.allocate_tensors()
 
