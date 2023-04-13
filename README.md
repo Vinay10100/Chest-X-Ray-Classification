@@ -28,14 +28,13 @@ The dataset used for this project consists of a collection of chest X-ray images
 ![predict](https://user-images.githubusercontent.com/97530517/231856798-74574e8d-fb31-45b0-a681-b9579900924d.jpg)
 
 ## How to Run
-To run the Streamlit app follow these steps:
 
- Install the required dependencies:
-```bash
+To run the Streamlit app, follow these steps:
+
+1. Install the required dependencies, Run the Streamlit app:
+
+   ```bash
    pip install -r requirements.txt
-```
-Run the Streamlit app:
-```bash
-    streamlit run app.py
-```
-* Upload a chest X-ray image and click the "Predict" button to get the Result.
+
+   streamlit run app.py
+3. Upload a chest X-ray image and click the "Predict" button to get the Result.
