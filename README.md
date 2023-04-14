@@ -36,5 +36,5 @@ To run the Streamlit app, follow these steps:
    ```bash
    pip install -r requirements.txt
 
-   streamlit run app.py
+   streamlit run predict.py
 3. Upload a chest X-ray image and click the "Predict" button to get the Result.
