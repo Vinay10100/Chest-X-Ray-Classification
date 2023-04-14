@@ -1,7 +1,7 @@
 # Chest X-Ray Image Classifier
 This project aims to classify chest X-ray images into three categories: COVID-19, Pneumonia, and Normal, using a Convolutional Neural Network (CNN) model.
 The project also includes a deployment using Streamlit for interactive web-based prediction of chest X-ray images.
-Test Images : [Test_images](https://github.com/Vinay2022/Chest-X-Ray-Classification/tree/main/Test_images)
+* Test Images : [Sample Images for Testing Model](https://github.com/Vinay2022/Chest-X-Ray-Classification/tree/main/Test_images)
 
 ## Dataset
 The dataset used for this project consists of a collection of chest X-ray images obtained from [Chest X-Ray Images Dataset (Kaggle)](https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset), including COVID-19-positive cases, pneumonia cases, and normal cases.
