@@ -3,3 +3,4 @@ tensorflow==2.8.0
 pillow==10.0.1
 numpy==1.22.3
 altair==4.2.2
+protobuf==3.20.3
